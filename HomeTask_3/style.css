@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.listOfImage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.smallImageDiv {
+  margin: 5px 10px 5px 10px;
+  width: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.smallImage {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bigImageDiv {
+  width: 1000px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.like {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.leftTurn, .rightTurn {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigImage {
+  max-width: 100%;
+  max-height: 700px;
+  position: relative;
+}
+
+.choosenElem {
+  border: solid 1px blue;
+  box-sizing: border-box;
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border: solid 1px #000;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.grayCircle {
+  background-color: gray;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
